@@ -2,10 +2,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:500');
 @import url('https://fonts.googleapis.com/css?family=Viga');
 @import url('https://fonts.googleapis.com/css?family=Hammersmith+One');
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
+
 
 .bgNow {
   width: 100wh;
-  height: 90vh;
+  height: 66vh;
   color: #fff;
   background: linear-gradient(-45deg, #31562c, black, #8ebf87, black);
   background-size: 400% 400%;
@@ -48,6 +50,13 @@
   100% {
     background-position: 0% 50%;
   }
+}
+
+.headFont{
+  font-family: 'Staatliches', cursive;
+  font-size: 30px;
+  letter-spacing: 4.5px;
+  color: #fcbd8a;
 }
 
 .start {
@@ -228,8 +237,12 @@ hr.under2 {
   display: table;
 }
 
+.pl-4{
+  padding-right: 50px;
+}
+
 .bg-photo{
-  background-color: #edb4b4;
+  background-color: #f7e2c8;
 }
 
 .spon-img {
