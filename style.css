@@ -10,7 +10,9 @@
   font-family: Samankar;
   src: url(./SAMAN___.TTF);
 }
-
+.row{
+  margin-right: 0px!important;
+}
 
 .bgNow {
   margin-right: 15px!important;
