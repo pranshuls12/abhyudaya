@@ -3,11 +3,19 @@
 @import url('https://fonts.googleapis.com/css?family=Viga');
 @import url('https://fonts.googleapis.com/css?family=Hammersmith+One');
 @import url('https://fonts.googleapis.com/css?family=Staatliches');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+@font-face {
+  font-family: Samankar;
+  src: url(./SAMAN___.TTF);
+}
 
 
 .bgNow {
-  width: 100wh;
-  height: 66vh;
+  margin-right: 15px!important;
+  width: 100%;
+  height: 100vh;
   color: #fff;
   background: linear-gradient(-45deg, #31562c, black, #8ebf87, black);
   background-size: 400% 400%;
@@ -52,26 +60,46 @@
   }
 }
 
+.lato{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  letter-spacing: 1.5px
+}
+.lato2{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  letter-spacing: 1.1px
+}
+
+.lato3{
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  letter-spacing: 1.1px
+}
+
+.event-dates{
+  width: 100%;
+}
 .headFont{
-  font-family: 'Staatliches', cursive;
-  font-size: 30px;
-  letter-spacing: 4.5px;
-  color: #fcbd8a;
+ width: 100%;
+    font-family: 'Samankar';
+    font-size: 121px;
+    letter-spacing: 1.5px;
+    color: #ffcc08;
 }
 
 .start {
-  font-family: 'Viga', sans-serif;
-  font-size: 36px;
-  word-spacing: 18px;
-  letter-spacing: 3px;
-  font-weight: 300;
-  text-align: center;
-  /* position: absolute;
-  top: 38%;
-  right: 35px;
-  left: 90px;
-  margin-bottom: 30px;
-  margin-top: 37px */
+  margin-top: 22px;
+    font-family: 'Viga', sans-serif;
+    font-size: 36px;
+    word-spacing: 27px;
+    letter-spacing: 3px;
+    font-weight: 300;
+    text-align: center;
+}
+.footer{
+  color: white;
+  background-color: black;
 }
 
 .text-type {
@@ -81,7 +109,7 @@
   letter-spacing: 3px;
   font-weight: 300;
   text-align: center;
-  color: #46494f;
+  color: #92efd0;
   /* position: absolute;
   right: 35px;
   left: 90px;
@@ -100,7 +128,18 @@ body {
   margin-top: 3rem !important;
 }
 
-@media all and (max-width: 576px) {
+@media all and (max-width: 768px) {
+  .row{
+    margin-right: 0px!important;
+  }
+    .headFont {
+    width: 100%;
+    font-family: 'Samankar';
+    font-size: 56px;
+    letter-spacing: 1.5px;
+    color: #ffcc08;
+}
+
   .image {
     margin-top: 0 !important;
     margin-left: 20%;
@@ -184,6 +223,14 @@ h1 {
 
 .info-header {
   border-bottom: 1px solid black;
+}
+
+.ft-size{
+  font-size: 13px;
+}
+
+.marNeg{
+  margin-top: -35px;
 }
 
 .eventBg {
@@ -273,13 +320,10 @@ hr.under2 {
   transform: rotateY(180deg);
 }
 
-.flip-container,
-.front,
-.back {
-  width: 295px;
-  height: 196px;
+.flip-container, .front, .back {
+    width: 289px;
+    height: 189px;
 }
-
 .flip-container2 {
   -webkit-perspective: 1000;
   -moz-perspective: 1000;
@@ -300,11 +344,9 @@ hr.under2 {
   transform: rotateY(180deg);
 }
 
-.flip-container2,
-.front2,
-.back2 {
-  width: 335px;
-  height: 450px;
+.flip-container2, .front2, .back2 {
+    width: 298px;
+    height: 450px;
 }
 
 .flipper {
@@ -417,7 +459,7 @@ hr.under2 {
 }
 
 .back-top {
-  top: 240px;
+  top: 280px;
 }
 .back-top2 {
   top: 285px;
